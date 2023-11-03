@@ -13,3 +13,10 @@
 records.config 
 
 remap.config
+
+
+----
+error log (시작은 루트에서부터) 
+/opt/ts-712/var/log/trafficserver$ << 이쪽에 로그 다 있음 
+노드는 nohup으로 뺌 
+
